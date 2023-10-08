@@ -10,7 +10,7 @@ bug-reports: "https://github.com/sixstring982/producer/issues"
 depends: [
   "ocaml" {>= "4.08"}
   "dune" {>= "3.7" & >= "3.7"}
-  "alcotest" {>="1.7.0" & with-test}
+  "alcotest" {>= "1.7.0"}
   "hmap" {>= "0.8.1"}
   "odoc" {with-doc}
 ]
@@ -33,8 +33,8 @@ url {
   src:
     "https://github.com/Sixstring982/producer/releases/download/v0.2.0/producer-0.2.0.tbz"
   checksum: [
-    "sha256=05670c2f5010c96418ffacc95da87d302798f00c68a996f136d0f68bb6072934"
-    "sha512=7435250398df0f37c4c34d209fa574312ffe79a8b62b9efe82abeb67dab344acf7ece8bc695812da6147bce5dcd1b3dc807115285a2a49d663665ead376ec54b"
+    "sha256=3d82dc281ac051f73aa6d125bfdc7ba6446a175cb0831e281ea548c233d4520c"
+    "sha512=dad6dcc98b63b299555ec84951a179c3bbf825332cd94dd2e09ea2961f19ca7f301b46c20105e11707500bf8ee5b828ac14dc847d2bd06767443859ecf7ae53b"
   ]
 }
-x-commit-hash: "ca562d552549be808fc6a049b5b425f90a6ffc55"
+x-commit-hash: "ff5f7562fe5e653fdf6a21b7821dd33a51dcacd8"
